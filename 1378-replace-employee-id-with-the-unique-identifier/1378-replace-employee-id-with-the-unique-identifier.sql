@@ -1,0 +1,1 @@
+select a.unique_id,e.name from Employees e , EmployeeUNI a where e.id = a.id(+)
