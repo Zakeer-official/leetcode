@@ -1,1 +1,1 @@
-select a.unique_id,e.name from Employees e , EmployeeUNI a where e.id = a.id(+)
+select EmployeeUNI.unique_id,Employees.name from Employees left outer join EmployeeUNI on Employees.id = EmployeeUNI.id 
