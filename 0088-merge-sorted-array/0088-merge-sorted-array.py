@@ -13,13 +13,12 @@ class Solution:
             merged.extend(left[i:])
             merged.extend(right[j:])
             return merged
-        def mer(nums1,nums2):
-            if len(nums1)==0 and len(nums2) == 0:
-                print(nums1)
-            else:
-                call = merger(nums1[0:m],nums2[0:n])
-                for i in range(len(call)):
-                    nums1[i] = call[i]
-                print(nums1)
-        mer(nums1,nums2)
+            
+        if len(nums1)==0 and len(nums2) == 0:
+            print(nums1)
+        else:
+            call = merger(nums1[0:m],nums2[0:n])
+            for i in range(len(call)):
+                nums1[i] = call[i]
+            print(nums1)
             
