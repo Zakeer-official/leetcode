@@ -2,11 +2,28 @@ class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         x = set(nums)
         y = list(x)
-        for i in range(len(y)):
-            min_id = i 
-            for j in range(i+1,len(y)):
-                if y[min_id] > y[j] :
-                    min_id = j
-            y[min_id] , y[i] = y[i] , y[min_id]
+        def merge_sort(y):
+            if len(y) <= 1:
+                return y
+            mid = len(y) // 2
+            left = y[:mid]
+            right = y[mid:]
+            left = merge_sort(left)
+            right = merge_sort(right)
+            return merge(left, right)
+        def merge(left, right):
+            result = [] 
+            i = j = 0 
+            while i < len(left) and j < len(right):
+                if left[i] < right[j]:
+                    result.append(left[i])
+                    i += 1
+                else:
+                    result.append(right[j])
+                    j += 1
+            result.extend(left[i:])
+            result.extend(right[j:])
+            return result
+        y = merge_sort(y)
         return y[-3] if len(y) >= 3 else y[-1]
         
