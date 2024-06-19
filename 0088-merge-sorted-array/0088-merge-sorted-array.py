@@ -16,12 +16,6 @@ class Solution:
         def mer(nums1,nums2):
             if len(nums1)==0 and len(nums2) == 0:
                 print(nums1)
-            elif len(nums1)==0 and len(nums2) > 0:
-                nums2.sort()
-                print(nums2)
-            elif len(nums1) > 0 and len(nums2) == 0:
-                nums1.sort()
-                print(nums1)
             else:
                 call = merger(nums1[0:m],nums2[0:n])
                 for i in range(len(call)):
