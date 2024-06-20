@@ -1,6 +1,9 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        for i in nums:
+        y = list(set(nums))
+        x = 0
+        for i in y:
             if nums.count(i) == 1:
-                return i 
+                x = i
+        return x
         
