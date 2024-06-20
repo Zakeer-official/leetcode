@@ -1,10 +1,8 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        x = set(nums)
-        y = list(x)
+        y = list(set(nums))
         x = 0
         for i in y:
             if nums.count(i) == 1:
-                x = i
-        return x
+                return i 
         
