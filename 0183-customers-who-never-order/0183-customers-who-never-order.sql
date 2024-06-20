@@ -1,0 +1,1 @@
+select c.name Customers from Customers c , Orders o where c.id = o.customerId(+) and o.customerId is null
