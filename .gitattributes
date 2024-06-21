@@ -1,1 +1,9 @@
-*.sql linguist-language=SQL
+# Ensure SQL files in leetcode subdirectories are recognized
+!leetcode/**/*.sql linguist-language=SQL
+
+# Ensure SQL files in data scripts and queries are recognized
+!data/scripts/**/*.sql linguist-language=SQL
+!data/queries/**/*.sql linguist-language=SQL
+
+# Include any SQL files in other directories
+!other_dir/*.sql linguist-language=SQL
