@@ -1,3 +1,6 @@
+# Ensure Python files are recognized
+*.py linguist-language=Python
+
 # Ensure SQL files in leetcode subdirectories are recognized
 !leetcode/**/*.sql linguist-language=SQL
 
