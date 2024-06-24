@@ -1,5 +1,7 @@
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
+        if dividend == 0:
+            return 0
         x = dividend // divisor
         if dividend < -1 and divisor >= -1 and divisor < 1:
             return x-1
