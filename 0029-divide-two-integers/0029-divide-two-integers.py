@@ -3,9 +3,7 @@ class Solution:
         x = dividend // divisor
         if dividend < -1 and divisor >= -1 and divisor < 1:
             return x-1
-        elif dividend > -1 and divisor < -1 and abs(dividend) != abs(divisor):
-            return x+1
-        elif dividend < -1 and divisor > len(str(dividend)):
+        elif (dividend < -1 and divisor > len(str(dividend))) or (dividend > -1 and divisor < -1 and abs(dividend) != abs(divisor)):
             return x+1
         else:
             return x
