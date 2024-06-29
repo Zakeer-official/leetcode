@@ -17,12 +17,10 @@ class Solution:
         def ms(arr):
             if len(arr) <= 1:
                 return arr
-            
             mid = len(arr) // 2
             left = ms(arr[:mid])
             right = ms(arr[mid:])
             return merge(left, right)
-
         y = ms(nums)
         result = []
         for i in range(len(y)):
