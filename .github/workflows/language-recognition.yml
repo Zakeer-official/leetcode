@@ -1,0 +1,22 @@
+name: Language Recognition
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check_syntax_highlighting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git attributes
+        run: git config --local core.safecrlf false && git add .gitattributes && git commit -m "Set up Git attributes" && git push
+
+      # You can add additional steps if needed
