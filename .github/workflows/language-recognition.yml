@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Git attributes
         run: |
@@ -28,6 +30,6 @@ jobs:
           git commit -m "Configure SQL language recognition"
 
       - name: Push Git attributes
-        uses: ad-m/github-push-action@master  # Replace 'v1' with a valid version tag
+        uses: ad-m/github-push-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
