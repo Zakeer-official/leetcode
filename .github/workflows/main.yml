@@ -2,7 +2,7 @@
 *.py linguist-language=Python
 
 # Ensure SQL files are recognized
-*.sql linguist-language=SQL
+*.sql linguist-language=Other
 
 # Ensure SQL files in specific directories are recognized
 leetcode/**/*.sql linguist-language=SQL
