@@ -19,13 +19,15 @@ jobs:
       - name: Set up Git attributes
         run: |
           echo '*.sql linguist-language=sql' >> .gitattributes
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
 
       - name: Commit Git attributes
         run: |
           git add .gitattributes
           git commit -m "Configure SQL language recognition"
-      
+
       - name: Push Git attributes
-        uses: ad-m/github-push-action@v2  # Replace 'v1' with a valid version tag
+        uses: ad-m/github-push-action@master  # Replace 'v1' with a valid version tag
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
