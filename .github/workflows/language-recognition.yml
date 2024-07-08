@@ -26,6 +26,6 @@ jobs:
           git commit -m "Configure SQL language recognition"
       
       - name: Push Git attributes
-        uses: ad-m/github-push-action@v1  # Replace 'v1' with a valid version tag
+        uses: ad-m/github-push-action@v2  # Replace 'v1' with a valid version tag
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
