@@ -30,6 +30,6 @@ jobs:
           git commit -m "Configure SQL language recognition"
 
       - name: Push Git attributes
-        uses: ad-m/github-push-action@v1
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
