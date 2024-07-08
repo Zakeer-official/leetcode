@@ -16,7 +16,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Git attributes
-        run: git config --local core.safecrlf false && git add .gitattributes && git commit -m "Set up Git attributes" && git push
+      - name: Set Git config
+        run: |
+          git config --local user.email "zzakeer22@gmail.com"
+          git config --local user.name "Zakeer-official"
 
-      # You can add additional steps if needed
+      - name: Set up Git attributes
+        run: |
+          echo '*.sql linguist-language=sql' >> .gitattributes
+
+      - name: Commit changes
+        run: |
+          git add .gitattributes
+          git commit -m "Set up Git attributes for SQL files"
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
