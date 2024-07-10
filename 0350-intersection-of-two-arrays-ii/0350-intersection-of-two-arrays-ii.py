@@ -3,14 +3,14 @@ class Solution:
         x = []
         if len(nums1) > len(nums2):
             for i in range(len(nums2)):
-                for j in range(i,len(nums1)):
+                for j in range(len(nums1)):
                     if nums2[i] == nums1[j]:
                         x.append(nums2[i])
                         nums1.remove(nums1[j])
                         break
         elif len(nums1) < len(nums2):
             for i in range(len(nums1)):
-                for j in range(i,len(nums2)):
+                for j in range(len(nums2)):
                     if nums1[i] == nums2[j]:
                         x.append(nums1[i])
                         nums2.remove(nums2[j])
