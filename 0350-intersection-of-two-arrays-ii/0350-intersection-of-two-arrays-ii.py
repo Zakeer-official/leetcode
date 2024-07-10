@@ -8,14 +8,14 @@ class Solution:
                 for j in nums1:
                     if i == j:
                         x.append(i)
-                        nums1.pop(j)
+                        nums1.remove(j)
                         break
         else:
             for i in nums1:
                 for j in nums2:
                     if i == j:
                         x.append(i)
-                        nums2.pop(j)
+                        nums2.remove(j)
                         break
         return x
         
