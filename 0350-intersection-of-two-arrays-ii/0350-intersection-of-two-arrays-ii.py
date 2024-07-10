@@ -1,6 +1,8 @@
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         x = []
+        nums1.sort()
+        nums2.sort()
         if len(nums1) > len(nums2):
             for i in range(len(nums2)):
                 for j in range(len(nums1)):
