@@ -4,18 +4,18 @@ class Solution:
         nums1.sort()
         nums2.sort()
         if len(nums1) > len(nums2):
-            for i in nums2:
-                for j in nums1:
-                    if i == j:
-                        x.append(i)
-                        nums1.remove(j)
+            for i in range(len(nums2)):
+                for j in range(len(nums1)):
+                    if nums2[i] == nums1[j]:
+                        x.append(nums2[i])
+                        nums1.pop(j)
                         break
         else:
-            for i in nums1:
-                for j in nums2:
-                    if i == j:
-                        x.append(i)
-                        nums2.remove(j)
+            for i in range(len(nums1)):
+                for j in range(len(nums2)):
+                    if nums1[i] == nums2[j]:
+                        x.append(nums1[i])
+                        nums2.pop(j)
                         break
         return x
         
