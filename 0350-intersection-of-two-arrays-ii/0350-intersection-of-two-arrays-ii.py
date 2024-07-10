@@ -6,7 +6,7 @@ class Solution:
                 for j in range(len(nums1)):
                     if nums2[i] == nums1[j]:
                         x.append(nums2[i])
-                        nums1.remove(nums1[j])
+                        nums1.pop(j)
                         break
         else:
             for i in range(len(nums1)):
