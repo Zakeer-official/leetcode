@@ -8,20 +8,12 @@ class Solution:
                         x.append(nums2[i])
                         nums1.remove(nums1[j])
                         break
-        elif len(nums1) < len(nums2):
+        else:
             for i in range(len(nums1)):
                 for j in range(len(nums2)):
                     if nums1[i] == nums2[j]:
                         x.append(nums1[i])
                         nums2.remove(nums2[j])
                         break
-        else:
-            for i in range(len(nums1)):
-                for j in range(len(nums2)):
-                    if nums1[i] == nums2[j]:
-                        x.append(nums1[i])
-                        break
-
-                    
         return x
         
