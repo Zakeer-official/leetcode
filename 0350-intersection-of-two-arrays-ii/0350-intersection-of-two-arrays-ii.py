@@ -13,7 +13,7 @@ class Solution:
                 for j in range(len(nums2)):
                     if nums1[i] == nums2[j]:
                         x.append(nums1[i])
-                        nums2.remove(nums2[j])
+                        nums2.pop(j)
                         break
         return x
         
