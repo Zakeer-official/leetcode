@@ -12,7 +12,6 @@ class Solution:
                 x.extend(sort)
             else:
                 x.append(i)
-
         x = "".join(x)
         return x
         
