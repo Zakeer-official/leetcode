@@ -30,5 +30,4 @@ jobs:
           git commit -m "Configure SQL language recognition"
 
       - name: Push Git attributes
-        run: |
-          git push origin HEAD:main
+        uses: ad-m/github-push-action@Zakeer-official-patch-1
