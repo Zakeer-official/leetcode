@@ -4,12 +4,9 @@ class Solution:
         nums = sorted(nums)
         while l <= r:
             mid = l + (r - l) // 2
-            if target > nums[mid]:
-                l = mid + 1
-            elif target < nums[mid]:
-                r = mid - 1
-            else:
-                return mid
+            if target > nums[mid]: l = mid + 1
+            elif target < nums[mid]: r = mid - 1
+            else: return mid
         return -1
 
 
