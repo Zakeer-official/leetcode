@@ -18,4 +18,4 @@ class Solution:
                         return False
                 else:
                     return False
-        return True if len(l) == 0 else False
+        return len(l) == 0
