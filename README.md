@@ -23,6 +23,7 @@ Happy Coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Zakeer-official/leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [2540-minimum-common-value](https://github.com/Zakeer-official/leetcode/tree/main/2540-minimum-common-value/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -36,8 +37,17 @@ Happy Coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Zakeer-official/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [2540-minimum-common-value](https://github.com/Zakeer-official/leetcode/tree/main/2540-minimum-common-value/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Zakeer-official/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2540-minimum-common-value](https://github.com/Zakeer-official/leetcode/tree/main/2540-minimum-common-value/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2540-minimum-common-value](https://github.com/Zakeer-official/leetcode/tree/main/2540-minimum-common-value/) | Easy |
 <!---LeetCode Topics End-->
