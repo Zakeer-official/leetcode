@@ -30,6 +30,7 @@ Happy Coding!
 | [0003-longest-substring-without-repeating-characters](https://github.com/Zakeer-official/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0005-longest-palindromic-substring](https://github.com/Zakeer-official/leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Zakeer-official/leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3120-count-the-number-of-special-characters-i](https://github.com/Zakeer-official/leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -41,6 +42,7 @@ Happy Coding!
 | [2540-minimum-common-value](https://github.com/Zakeer-official/leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Zakeer-official/leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Zakeer-official/leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3120-count-the-number-of-special-characters-i](https://github.com/Zakeer-official/leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
