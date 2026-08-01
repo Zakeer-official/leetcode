@@ -35,6 +35,7 @@ Happy Coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Zakeer-official/leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0486-predict-the-winner](https://github.com/Zakeer-official/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -50,6 +51,7 @@ Happy Coding!
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0486-predict-the-winner](https://github.com/Zakeer-official/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [2540-minimum-common-value](https://github.com/Zakeer-official/leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Zakeer-official/leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Zakeer-official/leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
@@ -65,4 +67,16 @@ Happy Coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Zakeer-official/leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0486-predict-the-winner](https://github.com/Zakeer-official/leetcode/tree/main/0486-predict-the-winner/) | Medium |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0486-predict-the-winner](https://github.com/Zakeer-official/leetcode/tree/main/0486-predict-the-winner/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0486-predict-the-winner](https://github.com/Zakeer-official/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 <!---LeetCode Topics End-->
