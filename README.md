@@ -71,6 +71,7 @@ Happy Coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/Zakeer-official/leetcode/tree/main/0486-predict-the-winner/) | Medium |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Zakeer-official/leetcode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -79,4 +80,8 @@ Happy Coding!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/Zakeer-official/leetcode/tree/main/0486-predict-the-winner/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Zakeer-official/leetcode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 <!---LeetCode Topics End-->
